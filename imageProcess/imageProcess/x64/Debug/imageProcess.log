@@ -1,0 +1,34 @@
+﻿  glad.c
+  stb_image.cpp
+  main.cpp
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\shader.h(65): warning C4101: “infoLog”: 未引用的局部变量
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\shader.h(64): warning C4101: “success”: 未引用的局部变量
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\mesh.h(73): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(213): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(305): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(306): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(310): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(311): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(313): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lenovo\documents\visual studio 2015\projects\opengl\fbo-in-opengl\imageprocess\imageprocess\main.cpp(321): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 glfwInit，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetFramebufferSizeCallback，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetInputMode，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetKey，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetTime，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetProcAddress，该符号在函数 main 中被引用
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\OpenGL\FBO-in-OpenGL\imageProcess\x64\Debug\imageProcess.exe : fatal error LNK1120: 16 个无法解析的外部命令
