@@ -16,6 +16,9 @@
 ![Inversion](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/reversion.png)
 * 灰度化(Grayscale)：
 ![Grayscale](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/grayscale.png)
+* 抗锯齿(Anti-aliasing):
+* 抗锯齿比较特殊，使用**多采样抗锯齿(Multisample Anti-aliasing)**,意味着要使用多采样帧缓冲。一个多采样图像包含了比普通图像更多的信息，所以最后需要压缩或还原图像。如果想要使用AA后的图像做后期处理，还需要生成一个新的FBO作为中介。
+![Anti-aliasing](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/anti-aliasing.png)
 * 核效果（Kernel）：
 #### 锐化(Sharpen):
 ![Sharpen](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/sharpen.png)
@@ -23,6 +26,3 @@
 ![Blur](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/blur.png)
 #### 边缘检测(Edge-detection):
 ![Edge-detection](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/edge-detection.png)
-* 抗锯齿(Anti-aliasing):
-抗锯齿比较特殊，使用**多采样抗锯齿(Multisample Anti-aliasing)**,意味着要使用多采样帧缓冲。一个多采样图像包含了比普通图像更多的信息，所以最后需要压缩或还原图像。如果想要使用AA后的图像做后期处理，还需要生成一个新的FBO作为中介。
-![Anti-aliasing](https://github.com/SweeneyChoi/FBO-in-OpenGL/blob/master/images/anti-aliasing.png)
